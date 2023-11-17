@@ -12,16 +12,35 @@ Why have I been blocked?
 
 为此实现了一个Python版本，本地部署的代理。支持流式输出。
 
+## 架构
+
+```mermaid
+
+用户  --> 应用(your domain) --> Api Proxy ---> OpenAi 
+
+```
+
 ## 安装&运行
+
+```shell
+# pip3 freeze > requirements.txt
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+
+python3 app.py
+
+```
 
 ## 测试
 
 ```shell
 curl http://127.0.0.1/v1/chat/completions \
 -H "Content-Type: application/json" \
--H "Authorization: Bearer sk-YouKey"   \
+-H "Authorization: Bearer sk-YOUROPENAIKEY"   \
 -d '{
     "model": "gpt-3.5-turbo",
+    "stream": true,
     "messages": [
       {
         "role": "system",
@@ -35,3 +54,15 @@ curl http://127.0.0.1/v1/chat/completions \
   }'
 ```
 
+## 结果
+
+```shell
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Hello! How can I assist you today?"
+      },
+      "finish_reason": "stop"
+    }
+```
