@@ -14,17 +14,20 @@ Why have I been blocked?
 
 支持流式输出。
 
-## 架构
+## 如果对你有帮助
 
-```mermaid
+- 请给仓库来个star⭐️⭐️⭐️⭐️⭐️
+- 或者实质性鼓励一下
 
-graph LR
+### 架构
+
+```shell
 
 用户  --> 应用/配置为代理的地址 --> 其他地区主机/部署ApiProxy --> OpenAi 
 
 ```
 
-## 安装&运行
+### 安装&运行
 
 ```shell
 # pip3 freeze > requirements.txt
@@ -36,7 +39,7 @@ python3 app.py
 
 ```
 
-## 测试
+### 测试
 
 ```shell
 curl http://127.0.0.1/v1/chat/completions \
@@ -71,8 +74,4 @@ curl http://127.0.0.1/v1/chat/completions \
     }
 ```
 
-## 如果对你有帮助
-
-- 请给仓库来个⭐️
-- 给个捐赠
 
