@@ -16,7 +16,9 @@ Why have I been blocked?
 
 ```mermaid
 
-用户  --> 应用(your domain) --> Api Proxy ---> OpenAi 
+graph LR
+
+用户  --> 应用/配置为代理的地址 --> 新增其他区域主机并部署ApiProxy --> OpenAi 
 
 ```
 
