@@ -18,7 +18,7 @@ Why have I been blocked?
 
 graph LR
 
-用户  --> 应用/配置为代理的地址 --> 新增其他区域主机并部署ApiProxy --> OpenAi 
+用户  --> 应用/配置为代理的地址 --> 其他地区主机/部署ApiProxy --> OpenAi 
 
 ```
 
