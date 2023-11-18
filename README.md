@@ -14,14 +14,15 @@ Why have I been blocked?
 
 支持流式输出。
 
-### 如果对你有帮助
+### 如果对你有帮助, 可通过如下方式来表达
 
-- 请给仓库来个star⭐️⭐️⭐️⭐️⭐️
+- 给仓库来个Star⭐️⭐️⭐️⭐️⭐️, 让更多人看到
 - 或者鼓励一下
 
-<t></t><img src="./images/zanshangma.jpg" width="200" height="200">
+<p align="center">
+  <img src="./images/zanshangma.jpg" width="200" height="200">
+</p>
 
-- 如果你的网站遇到攻击、链路、网络、配置等问题，也欢迎联系: QQ1101292065
 
 ### 架构
 
@@ -78,4 +79,8 @@ curl http://127.0.0.1/v1/chat/completions \
     }
 ```
 
+## 广告位
+
+- 多年运维工作经验, 有处理网络攻击、网络链路优化、网站功能优化等问题排查经验，如有需要，欢迎联系!
+- Jun, QQ&&WX:1101292065
 
